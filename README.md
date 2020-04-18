@@ -53,7 +53,7 @@
 
 **Тестирование url и status_code с помощью pytest.addoption**
 
-Тестовая функцая `test_url_status` принимает 2 параметра:
+Тестовая функция `test_url_status` принимает 2 параметра:
 `url` - по умолчанию https://ya.ru
 `status_code` - по умолчанию 200
 
