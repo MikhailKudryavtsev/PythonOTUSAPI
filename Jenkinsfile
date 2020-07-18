@@ -4,7 +4,7 @@ pipeline {
         stage('Test') {
             agent { dockerfile true }
             steps {
-                sh 'pytest -v testing_api_dog.py'
+                sh 'docker run my_tests'
             }
         }
     }
