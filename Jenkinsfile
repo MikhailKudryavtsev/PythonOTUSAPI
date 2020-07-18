@@ -1,9 +1,8 @@
 pipeline {
-    agent none 
+    agent { dockerfile true
+          }
     stages {
         stage('Test') {
-            agent { dockerfile true 
-                  }
             steps {
                 echo 'Hello World!'
             }
